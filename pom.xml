@@ -2,7 +2,7 @@
 				 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>java.com.mjeanroy</groupId>
+	<groupId>com.mjeanroy</groupId>
 	<artifactId>yo-maven-plugin</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
@@ -23,7 +23,6 @@
 		<connection>scm:git:git@github.com:mjeanroy/yo-maven-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:mjeanroy/yo-maven-plugin.git</developerConnection>
 		<url>https://github.com/mjeanroy/yo-maven-plugin</url>
-		<tag>v0.1.0</tag>
 	</scm>
 
 	<properties>
@@ -155,8 +154,6 @@
 					<!-- github repo name -->
 					<repositoryOwner>mjeanroy</repositoryOwner>
 					<!-- github username  -->
-					<merge>true</merge>
-					<!-- Do not override previous artifacts -->
 				</configuration>
 				<executions>
 					<!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
