@@ -17,13 +17,20 @@
 		</repository>
 	</distributionManagement>
 
-	<url>https://github.com/com.mjeanroy/yo-maven-plugin</url>
+	<url>https://github.com/mjeanroy/yo-maven-plugin</url>
 
 	<scm>
+<<<<<<< Updated upstream
 		<connection>scm:git:git@github.com:com.mjeanroy/yo-maven-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:com.mjeanroy/yo-maven-plugin.git</developerConnection>
 		<url>https://github.com/com.mjeanroy/yo-maven-plugin</url>
 		<tag>HEAD</tag>
+=======
+		<connection>scm:git:git@github.com:mjeanroy/yo-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:mjeanroy/yo-maven-plugin.git</developerConnection>
+		<url>https://github.com/mjeanroy/yo-maven-plugin</url>
+		<tag>v0.1.0</tag>
+>>>>>>> Stashed changes
 	</scm>
 
 	<properties>
